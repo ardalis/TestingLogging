@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingAspNetLogging", "TestingAspNetLogging\TestingAspNetLogging.csproj", "{F650D1E6-F68A-40BE-860B-1CF7562EDA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingLogging.UnitTests", "TestingLogging.UnitTests\TestingLogging.UnitTests.csproj", "{3E102133-FFAC-4B85-8C47-4423CC3359C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F650D1E6-F68A-40BE-860B-1CF7562EDA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F650D1E6-F68A-40BE-860B-1CF7562EDA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F650D1E6-F68A-40BE-860B-1CF7562EDA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F650D1E6-F68A-40BE-860B-1CF7562EDA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E102133-FFAC-4B85-8C47-4423CC3359C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E102133-FFAC-4B85-8C47-4423CC3359C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E102133-FFAC-4B85-8C47-4423CC3359C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E102133-FFAC-4B85-8C47-4423CC3359C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1691D5C7-D515-4402-9B20-0BA400F6D812}
+	EndGlobalSection
+EndGlobal
