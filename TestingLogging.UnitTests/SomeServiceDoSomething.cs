@@ -19,7 +19,7 @@ namespace TestingLogging.UnitTests
 
             // Option 1: Try to verify the actual code that was called.
             // Doesn't work.
-            mockLogger.Verify(l => l.LogCritical(It.IsAny<Exception>(), It.IsAny<string>(), 0));
+            mockLogger.Verify(l => l.LogError(It.IsAny<Exception>(), It.IsAny<string>(), 0));
         }
 
         [Fact]
@@ -47,7 +47,7 @@ namespace TestingLogging.UnitTests
             someService.DoSomething(0);
 
             // Option 3: Create your own instance of ILogger<T> that has a non-extension version of the method
-            // Doesn't work.
+            // Doesn't work, unless you change system under test to take in a FakeLogger (which is useless)
             Assert.NotNull(FakeLogger.ProvidedException);
             Assert.NotNull(FakeLogger.ProvidedMessage);
         }
